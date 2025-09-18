@@ -3,18 +3,194 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.html">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <title>Document</title>
+<link rel="stylesheet" href="src/index.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>LojasT</title>
+  
 </head>
+
+
 <body>
- <div class="d-flex justify-content-center mt-5">
-    <div class="btn-group" role="group" aria-label="Basic example">
-      <a href="produto01.html" class="btn btn-secondary">Left</a>
-      <a href="pagina2.html" class="btn btn-secondary">Middle</a>
-      <a href="pagina3.html" class="btn btn-secondary">Right</a>
-    </div>
+
+ 
+
+  <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive dropdown menu - Bedimcode</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  <i class="ri-planet-line"></i> LojasT
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#" class="nav__link">Home</a></li>
+
+                  <li><a href="#" class="nav__link">Company</a></li>
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-pie-chart-line"></i> Overview
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Transactions
+                           </a>
+                        </li>
+
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                        <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                           </div>
+
+                           <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-file-list-line"></i> Documents
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-cash-line"></i> Payments
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-refund-2-line"></i> Refunds
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  
+                  <li><a href="#" class="nav__link">Products</a></li>
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> Profiles
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-lock-line"></i> Accounts
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> Messages
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <li><a href="#" class="nav__link">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+     
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+   </body>
+<div class="caixa-branca">
+    <h2>Bem-vindo à LojasT!</h2>
+    <p>Este é um exemplo de seção com fundo branco.</p>
   </div>
-</div> 
-</body>
+   
+
+  <!--CARTOESSSS-->
+
+
+
+ <div class="caixa-branca">
+    <h2>Produtos em Destaque</h2>
+    
+    <div class="produtos-container">
+      
+      <div class="produto-card">
+        <div class="produto-imagem">
+          <img src="https://via.placeholder.com/400x300" alt="Imagem do Produto 1">
+        </div>
+        <div class="produto-info">
+          <h3>Nome do Produto 1</h3>
+          <p>Descrição breve do produto.</p>
+          <span class="produto-preco">R$ 199,90</span>
+          <button class="produto-btn">Comprar</button>
+        </div>
+      </div>
+      
+      <div class="produto-card">
+        <div class="produto-imagem">
+          <img src="https://via.placeholder.com/400x300" alt="Imagem do Produto 2">
+        </div>
+        <div class="produto-info">
+          <h3>Nome do Produto 2</h3>
+          <p>Descrição breve do produto.</p>
+          <span class="produto-preco">R$ 250,00</span>
+          <button class="produto-btn">Comprar</button>
+        </div>
+      </div>
+      
+      <div class="produto-card">
+        <div class="produto-imagem">
+          <img src="https://via.placeholder.com/400x300" alt="Imagem do Produto 3">
+        </div>
+        <div class="produto-info">
+          <h3>Nome do Produto 3</h3>
+          <p>Descrição breve do produto.</p>
+          <span class="produto-preco">R$ 99,90</span>
+          <button class="produto-btn">Comprar</button>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+
+
+</html>
+
 </html>

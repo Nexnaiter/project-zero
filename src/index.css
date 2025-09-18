@@ -1,0 +1,77 @@
+/* Estilos da nossa página */
+body {
+    background-color: blue;
+}
+
+.caixa-branca {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Regras para remover o sublinhado/brilho da navbar */
+.header,
+.nav {
+    box-shadow: none;
+    border: none;
+}
+
+.nav__link,
+.dropdown__link,
+.dropdown__sublink {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+/* Estilos para os cartões de produto */
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produto-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.produto-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.produto-info h3 {
+    margin-top: 0;
+}
+
+.produto-preco {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin: 10px 0;
+}
+
+.produto-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.produto-btn:hover {
+    background-color: #0056b3;
+}
