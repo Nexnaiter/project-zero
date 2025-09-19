@@ -41,6 +41,8 @@ body {
     padding: 15px;
     width: 300px;
     text-align: center;
+    flex: 1 1 300px;
+     
 }
 
 .produto-imagem img {
